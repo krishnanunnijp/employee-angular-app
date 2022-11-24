@@ -8,6 +8,7 @@ import { EmployeeEntryComponent } from './employee-entry/employee-entry.componen
 import { EmployeeAdminLoginComponent } from './employee-admin-login/employee-admin-login.component';
 import { EmployeeeditComponent } from './employeeedit/employeeedit.component';
 import { EmployeeSearchComponent } from './employee-search/employee-search.component';
+import { EmployeeDeleteComponent } from './employee-delete/employee-delete.component';
 
 const myRouter: Routes=[
   {
@@ -25,6 +26,10 @@ const myRouter: Routes=[
   {
     path: "search",
     component:EmployeeSearchComponent
+  },
+  {
+    path: "delete",
+    component:EmployeeDeleteComponent
   }
 
 ]
@@ -35,7 +40,8 @@ const myRouter: Routes=[
     EmployeeEntryComponent,
     EmployeeAdminLoginComponent,
     EmployeeeditComponent,
-    EmployeeSearchComponent
+    EmployeeSearchComponent,
+    EmployeeDeleteComponent
   ],
   imports: [
     BrowserModule,
