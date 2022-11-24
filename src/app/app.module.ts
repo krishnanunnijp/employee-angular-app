@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { EmployeeEntryComponent } from './employee-entry/employee-entry.component';
 import { EmployeeAdminLoginComponent } from './employee-admin-login/employee-admin-login.component';
 import { EmployeeeditComponent } from './employeeedit/employeeedit.component';
+import { EmployeeSearchComponent } from './employee-search/employee-search.component';
 
 const myRouter: Routes=[
   {
@@ -20,6 +21,10 @@ const myRouter: Routes=[
   {
     path: "edit",
     component:EmployeeeditComponent
+  },
+  {
+    path: "search",
+    component:EmployeeSearchComponent
   }
 
 ]
@@ -29,7 +34,8 @@ const myRouter: Routes=[
     AppComponent,
     EmployeeEntryComponent,
     EmployeeAdminLoginComponent,
-    EmployeeeditComponent
+    EmployeeeditComponent,
+    EmployeeSearchComponent
   ],
   imports: [
     BrowserModule,
