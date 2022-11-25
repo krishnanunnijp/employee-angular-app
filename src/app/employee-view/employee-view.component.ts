@@ -8,11 +8,11 @@ import { Component } from '@angular/core';
 export class EmployeeViewComponent {
   data:any = [
     {
-      name: "krishnanunni",
-      phone: 8848710090,
-      email: "krishnanunnijpjaya@gmail.com",
-      designation: "software development trainee",
-      salary: 24137125
+      "name": "krishnanunni",
+      "phone": 8848710090,
+      "email": "krishnanunnijpjaya@gmail.com",
+      "designation": "software development trainee",
+      "salary": 24137125
     },
     {
       name: "sachin",
