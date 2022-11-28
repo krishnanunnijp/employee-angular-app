@@ -11,6 +11,7 @@ import { EmployeeSearchComponent } from './employee-search/employee-search.compo
 import { EmployeeDeleteComponent } from './employee-delete/employee-delete.component';
 import { EmployeeViewComponent } from './employee-view/employee-view.component';
 import { EmployeeNavbarComponent } from './employee-navbar/employee-navbar.component';
+import { FormsModule } from '@angular/forms';
 
 const myRouter: Routes=[
   {
@@ -54,7 +55,8 @@ const myRouter: Routes=[
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(myRouter)
+    RouterModule.forRoot(myRouter),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
